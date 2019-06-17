@@ -8,3 +8,4 @@ build-QtLog-Qt_5_12_0_msvc2017_64-Debug/debug/qtlog.obj
 build-QtLog-Qt_5_12_0_msvc2017_64-Debug/debug/QtLog.pdb
 build-QtLog-Qt_5_12_0_msvc2017_64-Debug/Makefile
 build-QtLog-Qt_5_12_0_msvc2017_64-Debug/Makefile.Debug
+build-QtLog-Qt_5_12_0_msvc2017_64-Debug/Makefile.Release
