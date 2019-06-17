@@ -3,6 +3,7 @@
 
 #调用方法：
 '''c
+
     QString location = QStandardPaths::writableLocation(QStandardPaths::AppConfigLocation);
     qtLog->setLogFilePath(location+"/Log");
     qtLog->setLogFileName("Qt_Log");
