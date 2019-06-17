@@ -14,3 +14,9 @@
     qDebug()<<"Log in file "<<qtLog->logFilePath();
     //调试信息输出到命令行
     qtLog->setLogMode(QtLog::Qt);
+
+ # 输出到命令行
+![img](https://github.com/alvin-xian/QtLog/blob/master/QtLog/log-commandline.jpg)
+
+# 输出到文件
+![img](https://github.com/alvin-xian/QtLog/blob/master/QtLog/log-file.jpg)
