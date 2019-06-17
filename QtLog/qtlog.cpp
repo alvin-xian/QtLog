@@ -132,11 +132,6 @@ void outputMessage(QtMsgType type, const QMessageLogContext &context, const QStr
     if(!m_pInstance || !m_pInstance->isOutputAble()){
         return;
     }
-#if 1//大华摄像头输出的乱七八糟log
-    if(msg.contains("Return error level not enough")){
-        return;
-    }
-#endif
     static QMutex mutex;
     mutex.lock();
 
