@@ -2,7 +2,7 @@
 一个支持将qDebug信息输出到调试窗口或文件的类。
 
 #调用方法：
-'''c
+```c
 
     QString location = QStandardPaths::writableLocation(QStandardPaths::AppConfigLocation);
     qtLog->setLogFilePath(location+"/Log");
